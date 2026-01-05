@@ -1,0 +1,73 @@
+.home {
+    max-width: 1200px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 64px 32px;
+    background: linear-gradient(
+            to right,
+            var(--color-background) 0%,
+            var(--color-background) 70%,
+            var(--color-disabled) 70%,
+            var(--color-disabled) 100%
+    );
+}
+
+.header {
+    margin-top: 120px;
+    margin-bottom: var(--spacing-lg);
+    position: relative;
+}
+
+/* ===== Primary action ===== */
+.primary-action {
+    margin-bottom: 64px;
+}
+
+/* ===== Modules ===== */
+.modules,
+.coming-soon {
+    margin-top: 64px;
+}
+
+.modules h2,
+.coming-soon h2 {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 24px;
+    color: var(--color-gray);
+}
+
+/* ===== Cards ===== */
+.module-card {
+    background: var(--color-surface);
+    border-radius: 16px;
+    padding: 32px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    cursor: pointer;
+}
+
+.module-card h3 {
+    margin: 0 0 16px;
+}
+
+.module-card .record {
+    margin: 0 0 6px;
+}
+
+.module-card .updated {
+    color: var(--color-gray);
+    font-size: 14px;
+}
+
+.module-card.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* ===== Coming soon grid ===== */
+.coming-soon-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}

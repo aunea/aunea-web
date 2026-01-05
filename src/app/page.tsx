@@ -1,25 +1,41 @@
+import { Header } from "@/shared/components/layout/header/Header";
+import { PrimaryAction } from '@/shared/components/buttons/PrimaryAction';
+import { ModuleCard } from '@/shared/components/cards/ModuleCard';
+import { LockedModuleCard } from '@/shared/components/cards/LockedModuleCard';
+
+import '@/styles/home.css';
+
+
 export default function Home() {
     return (
-        <main style={{ padding: '24px', maxWidth: 480 }}>
-            <h1>AUNE-A</h1>
+        <main className="home">
+            <section className="header">
+                <Header/>
+            </section>
 
-            <div className="ui-card" style={{ marginTop: 24 }}>
-                <h3 className="ui-card__title">Welcome</h3>
-                <p className="ui-card__content">
-                    Web interface using shared UI layout.
-                </p>
-            </div>
+            <section className="primary-action">
+                <PrimaryAction label="Add body record" />
+            </section>
 
-            <div style={{ marginTop: 24, display: 'grid', gap: 16 }}>
-                <label className="ui-input">
-                    <span className="ui-input__label">Name</span>
-                    <input type="text" />
-                </label>
+            <section className="modules">
+                <h2>Your modules</h2>
 
-                <button className="ui-button ui-button--primary">
-                    Continue
-                </button>
-            </div>
+                <ModuleCard
+                    title="Body metrics"
+                    record="Last record: 72.4 kg"
+                    updated="Updated 2 days ago"
+                />
+            </section>
+
+            <section className="coming-soon">
+                <h2>Coming soon</h2>
+
+                <div className="coming-soon-grid">
+                    <LockedModuleCard title="Emotional diary" />
+                    <LockedModuleCard title="Finance" />
+                    <LockedModuleCard title="Agenda" />
+                </div>
+            </section>
         </main>
     );
 }

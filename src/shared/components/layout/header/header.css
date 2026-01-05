@@ -1,0 +1,116 @@
+.header {
+    margin-bottom: var(--spacing-lg);
+}
+
+.header-menu {
+    height: 64px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 32px;
+    background: var(--color-text);
+    opacity: 90%;
+    overflow: hidden;
+}
+
+.header-menu-item {
+    height: 64px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px;
+    text-decoration: none;
+    color: var(--color-background);
+    font-weight: 400;
+}
+
+.header-menu-item.active {
+    background: var(--color-warning);
+    color: var(--color-text);
+    font-weight: 800;
+    border: 5px solid var(--color-text);
+    text-transform: uppercase;
+}
+
+.header-menu-item:active {
+    opacity: 0.9;
+}
+
+.header {
+    margin-bottom: var(--spacing-lg);
+}
+
+.header-menu {
+    height: 64px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 32px;
+    background: var(--color-text);
+    opacity: 90%;
+    overflow: hidden;
+}
+
+.header-menu-item {
+    height: 64px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px;
+    text-decoration: none;
+    color: var(--color-background);
+    font-weight: 400;
+}
+
+.header-menu-item.active {
+    background: var(--color-warning);
+    color: var(--color-text);
+    font-weight: 800;
+    border: 5px solid var(--color-text);
+    text-transform: uppercase;
+}
+
+.header-menu-item:active {
+    opacity: 0.9;
+}
+
+.header {
+    margin-bottom: var(--spacing-lg);
+}
+
+.header-menu {
+    height: 64px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 32px;
+    background: var(--color-text);
+    opacity: 90%;
+    overflow: hidden;
+}
+
+.header-menu-item {
+    height: 64px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px;
+    text-decoration: none;
+    color: var(--color-background);
+    font-weight: 400;
+}
+
+.header-menu-item.active {
+    background: var(--color-warning);
+    color: var(--color-text);
+    font-weight: 800;
+    border: 5px solid var(--color-text);
+    text-transform: uppercase;
+}
+
+.header-menu-item:active {
+    opacity: 0.9;
+}
