@@ -1,0 +1,7 @@
+.app-content {
+    position: relative;
+    min-width: 100vw;
+    min-height: 100vh;
+    overflow: hidden;
+    z-index: 10;
+}

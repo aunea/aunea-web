@@ -1,24 +1,4 @@
-/* ===== Design system (vem do pacote npm) ===== */
-@import "@aunea/ui-layout/src/styles/base.css";
-@import "@aunea/ui-layout/src/components/button/button.css";
-@import "@aunea/ui-layout/src/components/input/input.css";
-@import "@aunea/ui-layout/src/components/card/card.css";
-
-/* ===== Reset global mínimo ===== */
-* {
-    box-sizing: border-box;
-}
-
-html,
-body {
-    margin: 0;
-    padding: 0;
-    min-height: 100%;
-}
-
-/* ===== Base visual do app ===== */
-body {
-    font-family: var(--font-family);
-    background: var(--color-background);
-    color: var(--color-text);
-}
+@import "../shared/styles/background.css";
+@import "../shared/styles/layout.css";
+@import "../shared/styles/page.css";
+@import "../shared/components/gretting.css";
