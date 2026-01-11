@@ -1,4 +1,4 @@
-import {GreetingType} from "@/shared/components/Greeting";
+import {GreetingType} from "@/shared/components/home/HomeGreeting/HomeGreeting";
 
 export function getGreetingByHour(date = new Date()): GreetingType {
     const hour = date.getHours()

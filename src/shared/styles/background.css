@@ -23,12 +23,17 @@ body::before {
             var(--app-background);
 }
 
-/*body::after {*/
-/*    content: "";*/
-/*    position: fixed;*/
-/*    inset: 0;*/
-/*    pointer-events: none;*/
-/*    z-index: 9999;*/
-/*    background-image: url(texture.png);*/
-/*    background-repeat: repeat;*/
-/*}*/
+body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 9999;
+
+    background-image: url(noise-pattern.png);
+    background-repeat: repeat;
+    background-size: 100vw 100vh;
+
+    opacity: 0.3;
+    mix-blend-mode: overlay;
+}

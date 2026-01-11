@@ -1,0 +1,80 @@
+.home {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.metrics-section {
+    width: 40vw;
+    margin: var(--spacing-stack-md) var(--spacing-stack-2xl);
+}
+
+.coming-soon-section {
+    width: 70vw;
+    margin: var(--spacing-stack-md) var(--spacing-stack-2xl);
+}
+
+.columns-container {
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+}
+
+.column-left {
+    width: 40%;
+    height: 100%;
+    padding: var(--spacing-stack-2xl);
+    display: flex;
+    flex-direction: column;
+}
+
+.column-right {
+    width: 60%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+.actions-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.coming-soon-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.final-line {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.modules-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+}
+
+.talk-to-aunea-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+}
