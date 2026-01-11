@@ -1,3 +1,5 @@
+import './home-gretting.css'
+
 export enum GreetingType {
     Morning = 'Good morning',
     Afternoon = 'Good afternoon',
@@ -10,7 +12,7 @@ type GreetingProps = {
     subtitle?: string;
 };
 
-export default function Greeting({
+export function HomeGreeting({
                                      greeting,
                                      name,
                                      subtitle = 'Overview of your life data'
